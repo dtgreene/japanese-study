@@ -18,7 +18,7 @@ export const DragSymbol = ({ value, className }) => {
       ref={setNodeRef}
       style={style}
       className={cn(
-        'w-16 h-16 text-3xl shrink-0 inline-block overflow-hidden transition-colors',
+        'w-16 h-16 text-3xl shrink-0 inline-block overflow-hidden transition-colors touch-none',
         {
           'border bg-background': isDragging,
         },
